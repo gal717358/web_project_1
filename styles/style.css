@@ -10,25 +10,25 @@
 }
 .header{
   height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
+  min-height:600px;
+  max-height:756px;
   display: flex;
-  margin: 0;
-  padding: 0;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-  background-color: #f2f2f2;
+  margin:0;
+  padding:0;
+  flex-direction:column;
+  justify-content:center;
+  position:relative;
+  background-color:#f2f2f2;
 
   /* parameters for the header section */
 }
 .logo_place_header{
   position: absolute;
-  width: 154px;
-  height: 31px;
+  width:154px;
+  height:31px;
   top:30px;
-  left: 64px;
-  z-index: 1;
+  left:64px;
+  z-index:1;
 }
 
 .header__title{
@@ -85,7 +85,7 @@
   
 }
 .two-columns__brief{
-  width:175px ;
+  width:175px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -121,12 +121,12 @@
 }
 
 .section-subtitle{
-  line-height: 64px;
-  font-size: 24px;
-  font-weight: normal;
-  text-align: center;   
-  margin: 0px;
-  top: 100px;
+  line-height:64px;
+  font-size:24px;
+  font-weight:normal;
+  text-align:center;   
+  margin:0px;
+  top:100px;
  }
 
 .table {
@@ -192,39 +192,39 @@
 .feynman__link {
   position:absolute;
   top:50%;
-  text-decoration: none; 
+  text-decoration:none; 
   line-height: 51px;
   font-size: 31px;
   font-weight:normal;
-  color: blue;
-  right: 48px;
+  color:blue;
+  right:48px;
 }
 
 .kaufman{
-  display: flex;
+  display:flex;
   background-color:black ;
-  overflow: hidden; 
-  flex-direction: column;
-  position: relative;
-  z-index: 1;
+  overflow:hidden; 
+  flex-direction:column;
+  position:relative;
+  z-index:1;
 }
 .section-title_theme_dark{
-  margin: 90px auto 0 auto;
-  color: white;
+  margin:90px auto 0 auto;
+  color:white;
   z-index:2;
   width: 60%;
 
 }
 .section-subtitle_theme_dark{
   color: #f2f2f2;
-  margin-top: 20px;
+  margin-top:20px;
   z-index:2;
 }
 
 .table_theme_dark{
-  padding-left: 0;
-  margin:0px auto 90px auto; 
-  z-index: 2; 
+  padding-left:0;
+  margin:0px auto90px auto; 
+  z-index:2; 
 }
 
 .table__cell_theme_dark{
