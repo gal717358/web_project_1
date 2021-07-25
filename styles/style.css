@@ -125,8 +125,8 @@
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
-  text-align: center; 
-  margin: 0;
+  text-align: center;
+  margin:0;
 }
 
 .section-subtitle{
@@ -223,8 +223,8 @@
   color:white;
   z-index:2;
   width: 60%;
-
 }
+
 .section-subtitle_theme_dark{
   color: #f2f2f2;
   margin-top:20px;
@@ -241,7 +241,6 @@
   margin-top: 80px;
   width: 200px;
   color: white;
-  
 }
 
 .table__heading_theme_dark{
