@@ -39,6 +39,7 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
+  z-index:2;
   
 }
 .header__subtitle{
@@ -50,6 +51,7 @@
   font-size: 18px;
   font-weight: normal;
   margin:0;
+  z-index:2;
 }
 .header__link{
   text-decoration: none;
@@ -62,7 +64,7 @@
   height: 608px;
   bottom: 0;
   right: 0;
-  z-index: 2;
+  z-index: 1;
 }
 
 .header__square-pic {
@@ -72,6 +74,7 @@
   right:0;
   position: absolute;
   background-color:  #2F80ED;
+  z-index: 0;
   
 }
 
@@ -119,6 +122,7 @@
 }
 .digits {
   margin: 100px 0 100px 0;
+
 }
 
 .section-title{
@@ -134,7 +138,7 @@
   font-size:24px;
   font-weight:normal;
   text-align:center;
-  margin:0px;
+  margin:20px 0px;
  }
 
 .table {
@@ -147,7 +151,6 @@
 }
 
 .table__cell{
-
   margin-top: 60px;
   width: 250px;
   list-style: none;
@@ -164,7 +167,8 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin: 0;
+  margin:20px 0;
+
   
 }
 
@@ -305,7 +309,7 @@
   margin: 0; 
 }
 
-.footer__column_heading{
+.footer__column-heading{
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
