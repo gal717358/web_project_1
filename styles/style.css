@@ -85,7 +85,7 @@
 .two-columns{
   width: 80%;
   display: flex;
-  justify-content:space-between ;
+  justify-content:space-between;
 }
 
 .two-columns__brief{
