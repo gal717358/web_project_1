@@ -83,8 +83,8 @@
   margin:100px 0px 100px 0px; 
 }
 .two-columns{
-  width: 80%;
-  display: flex;
+  width:80%;
+  display:flex;
   justify-content:space-between;
 }
 
