@@ -1,3 +1,12 @@
+
+@keyframes rotation{
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 .page {
   min-width: 1100px;
   /* we don't know how to make mobile versions of websites yet, */
@@ -57,6 +66,12 @@
   color: #2F80ED;
   
 }
+.header__link:hover{
+  text-decoration: none;
+  color: #2F80ED;
+  opacity: 0.3;
+  
+}
 .header__main-illustration {
   position: absolute;
   width: 756px;
@@ -74,8 +89,14 @@
   position: absolute;
   background-color:  #2F80ED;
   z-index: 0;
-  
+  transform: rotate(-15deg);
 }
+
+.rotation{
+animation: rotation 20s linear infinite;
+}
+
+
 
 .description{
   display: flex;
@@ -119,6 +140,123 @@
   font-weight: bold;
   margin: 0;
 }
+
+.techniques{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+ }
+
+.techniques-title{
+line-height: 1.15;
+font-size: 60px;
+font-weight: bold;
+margin:0;
+}
+.techniques_subtitle{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal; 
+}
+
+.cards{
+  width: 920px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  gap: 100px 60px;
+}
+
+.cards__item{
+  width: 250px;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  
+}
+.cards__image{
+border-radius:50%;
+height: 160px;
+width: 160px;
+}
+
+.cards__title{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 43px 0 16px;
+}
+.cards__description{
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.video{
+margin: 100px auto 0;
+}
+
+.video-title{
+line-height: 1.15;
+font-size: 60px;
+font-weight: bold;
+text-align: center;
+margin:0;
+}
+
+.video-subtitle{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  margin:20 auto 50px;
+}
+.video__iframs{
+display: flex;
+flex-direction:row;
+justify-content: center;
+height: 316px;
+height: 515px;
+margin: auto;
+}
+.video__iframe{
+  padding: 20px;
+}
+.oakley{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-between; 
+  background-color:#f2f2f2; 
+}
+.oakley__two-columns{
+  width:80%;
+  display:flex;
+  justify-content:space-between;
+}
+
+.oakley__two-columns_brief{
+  width:175px;
+  line-height:1.2;
+  font-size:18px;
+  font-weight:normal;
+  color:#2F80ED;
+}
+.oakley__two-columns_main-text{
+  width: 80%;
+  min-width: 784px;
+
+}
+
+.oakley__two-columns_paragraph{
+  padding-bottom:30px;
+  line-height:34px;
+  font-size:24px;
+  font-weight:normal;
+  margin:0 auto 0 auto;
+}
+
 .digits {
   margin: 100px 0 100px 0;
 
@@ -152,7 +290,9 @@
 .table__cell{
   margin-top: 60px;
   width: 250px;
-  list-style: none;
+  list-style: none;  
+  width: 250px;
+  
 }
 
 .table__heading{
@@ -167,8 +307,76 @@
   font-size: 18px;
   font-weight: normal;
   margin:20px 0;
+}
+.khan{
+  background-color:#f2f2f2;
+  display:flex;
+  flex-direction:column;
+  margin:100px auto 0px auto;
+}
 
-  
+.Khan__container{
+margin:0px auto 0px auto;
+width: 80%;justify-content: left;
+}
+
+.Khan__author{
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  margin:0;
+}
+.Khan__title{
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight:bold;
+  margin:0 auto 50px auto
+}
+.Khan__quote{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  width: 790px;
+  margin: 0;
+}
+
+.Khan__quote-author{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin:36px auto 10px;
+}
+.Khan__quote-author-subline{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+ margin: 0px auto 68px auto
+}
+.Khan__book-container{
+display: flex;
+flex-direction: row;
+}
+.Khan__book-pic{
+width: 620px;
+height: 608px;
+
+}
+.Khan__buy-link{
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #2F80ED;
+  margin:0;
+}
+.Khan__buy-link:hover{
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #2F80ED;
+  margin:0;
+  opacity: 0.3;
 }
 
 .feynman{
@@ -211,6 +419,9 @@
   font-weight:normal;
   color:#2F80ED;
   right:48px;
+}
+.feynman__link:hover{
+  opacity: 0.3;
 }
 
 .kaufman{
@@ -273,6 +484,39 @@
 
   z-index: 1;
 }
+.resources{
+  margin:100px auto 217px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.resources-title{
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight:bold;
+  justify-content: center;
+  margin: 0;
+}
+.resources-subtitle{
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  justify-content: center;
+  margin: 20px auto 80px auto;
+  margin:0;
+}
+.resources__logo-zone{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  margin:80px auto 0px auto;
+  width: 1100px;
+}
+.resources__logo{
+width: 270px;
+height: 30px;
+}
 
 .footer{
   min-height: 350px;
@@ -328,6 +572,9 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+}
+.footer__column-link:hover{
+  opacity: 0.3;
 }
 
 .footer__social-icons {
