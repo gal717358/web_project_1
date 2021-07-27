@@ -154,7 +154,7 @@ font-size: 60px;
 font-weight: bold;
 margin:0;
 }
-.techniques_subtitle{
+.techniques-subtitle{
   line-height: 34px;
   font-size: 24px;
   font-weight: normal; 
@@ -212,7 +212,7 @@ margin:0;
   text-align: center;
   margin:20 auto 50px;
 }
-.video__iframs{
+.video__iframes{
 display: flex;
 flex-direction:row;
 justify-content: center;
