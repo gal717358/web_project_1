@@ -40,15 +40,16 @@
 
 
 @import url(./Blocks/khan/khan.css);
-@import url(./Blocks/khan/__title/Khan__title.css);
-@import url(./Blocks/khan/__quote/Khan__quote.css);
-@import url(./Blocks/khan/__quote/Khan__quote-author.css);
-@import url(./Blocks/khan/__quote/Khan__quote-author-subline.css);
-@import url(./Blocks/khan/__container/Khan__container.css);
-@import url(./Blocks/khan/__buy/Khan__buy-link.css);
-@import url(./Blocks/khan/__book/Khan__book-container.css);
-@import url(./Blocks/khan/__book/Khan__book-pic.css);
-@import url(./Blocks/khan/__author/Khan__author.css);
+@import url(./Blocks/khan/-author/Khan-author.css);
+@import url(./Blocks/khan/-buy/Khan-buy-link.css);
+@import url(./Blocks/khan/-container/Khan-container.css);
+@import url(./Blocks/khan/-title/Khan-title.css);
+@import url(./Blocks/khan/_book/Khan-book-container.css);
+@import url(./Blocks/khan/_book/Khan-book-pic.css);
+@import url(./Blocks/khan/-quote/Khan-quote-author-subline.css);
+@import url(./Blocks/khan/-quote/Khan-quote-author.css);
+@import url(./Blocks/khan/-quote/Khan-quote.css);
+
 
 @import url(./Blocks/oakley/oakley.css);
 @import url(./Blocks/oakley/__two-columns/oakley__two-columns.css);
