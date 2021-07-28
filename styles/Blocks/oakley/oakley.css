@@ -1,0 +1,7 @@
+.oakley{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between; 
+    background-color:#f2f2f2; 
+  }
