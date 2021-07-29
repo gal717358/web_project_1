@@ -22,17 +22,17 @@
 @import url(../root/Blocks/description/description.css);
 @import url(../root/Blocks/description/__two-columns/two-columns.css);
 @import url(../root/Blocks/description/__two-columns/__span/two-columns__span-accent.css);
-@import url(../root/Blocks/description/__two-columns/__paragraph/description__two-columns__paragraph.css);
-@import url(../root/Blocks/description/__two-columns/__main-text/description__two-columns__main-text.css);
-@import url(../root/Blocks/description/__two-columns/__brief/description__two-columns__brief.css);
+@import url(../root/Blocks/description/__two-columns/__paragraph/two-columns__paragraph.css);
+@import url(../root/Blocks/description/__two-columns/__main-text/two-columns__main-text.css);
+@import url(../root/Blocks/description/__two-columns/__brief/two-columns__brief.css);
 
 @import url(../root/Blocks/digits/digits.css);
 @import url(../root/Blocks/digits/__table/table.css);
-@import url(../root/Blocks/digits/__table/__text/digits__table__text.css);
-@import url(../root/Blocks/digits/__table/__heading/digit__table__heading.css);
-@import url(../root/Blocks/digits/__table/__cell/digit__table__cell.css);
-@import url(../root/Blocks/digits/__section-title/digits__section-title.css);
-@import url(../root/Blocks/digits/__section-subtitle/digits__section-subtitle.css);
+@import url(../root/Blocks/digits/__table/__text/table__text.css);
+@import url(../root/Blocks/digits/__table/__heading/table__heading.css);
+@import url(../root/Blocks/digits/__table/__cell/table__cell.css);
+@import url(../root/Blocks/digits/__section-title/section-title.css);
+@import url(../root/Blocks/digits/__section-subtitle/section-subtitle.css);
 
 @import url(../root/Blocks/feynman/feynman.css);
 @import url(../root/Blocks/feynman/__title/feynman__title.css);
@@ -41,15 +41,15 @@
 
 
 @import url(../root/Blocks/khan/khan.css);
-@import url(../root/Blocks/khan/-author/Khan__author.css);
-@import url(../root/Blocks/khan/-buy/Khan__buy-link.css);
-@import url(../root/Blocks/khan/-container/Khan__container.css);
+@import url(../root/Blocks/khan/__quote/Khan__quote.css);
+@import url(../root/Blocks/khan/__quote-author/Khan__quote-author.css);
+@import url(../root/Blocks/khan/__quote-author-subline/Khan__quote-author-subline.css);
+@import url(../root/Blocks/khan/__book-pic/khan__book-pic.css);
+@import url(../root/Blocks/khan/__book-container/khan__book-container.css);
+@import url(../root/Blocks/khan/__author/Khan__author.css);
 @import url(../root/Blocks/khan/-title/Khan__title.css);
-@import url(../root/Blocks/khan/_book/Khan__book-container.css);
-@import url(../root/Blocks/khan/_book/Khan__book-pic.css);
-@import url(../root/Blocks/khan/-quote/Khan__quote-author-subline.css);
-@import url(../root/Blocks/khan/-quote/Khan__quote-author.css);
-@import url(../root/Blocks/khan/-quote/Khan__quote.css);
+@import url(../root/Blocks/khan/-container/Khan__container.css);
+@import url(../root/Blocks/khan/-buy/khan__buy-link.css);
 
 
 @import url(../root/Blocks/oakley/oakley.css);
@@ -68,10 +68,10 @@
 @import url(../root/Blocks/techniques/section-title.css);
 @import url(../root/Blocks/techniques/section-subtitle.css);
 @import url(../root/Blocks/techniques/__cards/cards.css);
-@import url(../root/Blocks/techniques/__cards/__title/techniques__cards__title.css);
-@import url(../root/Blocks/techniques/__cards/__item/techniques__cards__item.css);
-@import url(../root/Blocks/techniques/__cards/__image/techniques__cards__image.css);
-@import url(../root/Blocks/techniques/__cards/__description/techniques__cards__description.css);
+@import url(../root/Blocks/techniques/__cards/__title/cards__title.css);
+@import url(../root/Blocks/techniques/__cards/__item/cards__item.css);
+@import url(../root/Blocks/techniques/__cards/__image/cards__image.css);
+@import url(../root/Blocks/techniques/__cards/__description/cards__description.css);
 
 @import url(../root/Blocks/video/video.css);
 @import url(../root/Blocks/video/./section-title.css);
@@ -80,20 +80,13 @@
 @import url(../root/Blocks/video/__iframe/video__iframe.css);
 
 @import url(../root/Blocks/kaufman/kaufman.css);
-@import url(../root/Blocks/kaufman/__section-title/section-title.css);
-@import url(../root/Blocks/kaufman/__section-subtitle/_theme/section-subtitle_theme_dark.css);
-@import url(../root/Blocks/kaufman/__table/kaufman__table.css);
-@import url(../root/Blocks/kaufman/__table/_theme/table_theme_dark.css);
-@import url(../root/Blocks/kaufman/__table/__text/kaufman__table__text.css);
-@import url(../root/Blocks/kaufman/__table/__text/_theme/kaufman__table__text_theme_dark.css);
-@import url(../root/Blocks/kaufman/__table/__heading/kaufman__table__heading.css);
-@import url(../root/Blocks/kaufman/__table/__heading/kaufman__table__heading_theme_dark.css);
-@import url(../root/Blocks/kaufman/__table/__cell/table__cell.css);
-@import url(../root/Blocks/kaufman/__table/__cell/_theme/kaufman__table__cell_theme_dark.css);
-@import url(../root/Blocks/kaufman/__section-title/section-title.css);
-@import url(../root/Blocks/kaufman/__section-title/_theme/section-title_theme_dark.css);
-@import url(../root/Blocks/kaufman/__section-subtitle/_theme/section-subtitle_theme_dark.css);
 @import url(../root/Blocks/kaufman/__triangle/kaufman__triangle.css);
+@import url(../root/Blocks/kaufman/__table/__cell_theme_dark/table__cell_theme_dark.css);
+@import url(../root/Blocks/kaufman/__table/__text/_theme/kaufman__table__text_theme_dark.css);
+@import url(../root/Blocks/kaufman/__table/_theme_dark/table_theme_dark.css);
+@import url(../root/Blocks/kaufman/__section-title/section-title.css);
+@import url(../root/Blocks/kaufman/__section-title/section-title_theme_dark.css);
+@import url(../root/Blocks/kaufman/__section-subtitle/_theme/section-subtitle_theme_dark.css);
 
 @import url(../root/Blocks/footer/footer.css);
 @import url(../root/Blocks/footer/__social-icons/footer__social-icons.css);
@@ -102,7 +95,7 @@
 @import url(../root/Blocks/footer/__columns/footer__columns.css);
 @import url(../root/Blocks/footer/__column/_content/footer__column_content_social.css);
 @import url(../root/Blocks/footer/__column/footer__column.css);
-@import url(../root/Blocks/footer/__column/_content/footer__column_content_copyright.css);
+@import url(../root/Blocks/footer/__column/column_content_copyright/footer__column_content_copyright.css);
 @import url(../root/Blocks/footer/__column-link/footer__column-link.css);
 @import url(../root/Blocks/footer/__column-heading/footer__column-heading.css);
 @import url(../root/Blocks/footer/__author/footer__author.css);
