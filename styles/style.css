@@ -25,7 +25,7 @@
 
 @import url(../web_project_2-main/blocks/description/description.css);
 @import url(../web_project_2-main/blocks/two-columns/two-columns.css);
-@import url(../web_project_2-main/blocks/two-columns/__span/two-columns__span-accent.css);
+@import url(../web_project_2-main/blocks/two-columns/__span-accent/two-columns__span-accent.css);
 @import url(../web_project_2-main/blocks/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(../web_project_2-main/blocks/two-columns/__main-text/two-columns__main-text.css);
 @import url(../web_project_2-main/blocks/two-columns/__brief/two-columns__brief.css);
